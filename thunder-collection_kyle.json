@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "kyle",
+    "dateExported": "2023-05-02T05:14:07.982Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c8a15249-8deb-4b34-80d2-f48f74289c77",
+            "colId": "ea5b468f-c687-4ccb-bbca-fb3773391273",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:4000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-02T05:11:27.038Z",
+            "modified": "2023-05-02T05:11:27.038Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{        \r\n        \"title\": \"SEMI-FINAL\",\r\n        \"firstName\": \"KyleKevin\",\r\n        \"lastName\": \"Aroa\",\r\n        \"role\":  \"User\",\r\n        \"email\": \"kylea@gmail.com\",\r\n        \"password\": \"123456\",\r\n        \"confirmPassword\": \"123456\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "02e4a2d3-e24f-4aaa-a19b-1fc7da85daa9",
+            "colId": "ea5b468f-c687-4ccb-bbca-fb3773391273",
+            "containerId": "",
+            "name": "GET ALL",
+            "url": "http://localhost:4000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-02T05:11:59.752Z",
+            "modified": "2023-05-02T05:11:59.753Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "88e545ad-46d2-4a8b-867b-3147c1dd8702",
+            "colId": "ea5b468f-c687-4ccb-bbca-fb3773391273",
+            "containerId": "",
+            "name": "GET by ID",
+            "url": "http://localhost:4000/users/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-05-02T05:12:33.601Z",
+            "modified": "2023-05-02T05:12:33.601Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "784f5411-88ff-4227-ad6f-b56ea5262162",
+            "colId": "ea5b468f-c687-4ccb-bbca-fb3773391273",
+            "containerId": "",
+            "name": "PUT",
+            "url": "http://localhost:4000/users/2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-05-02T05:13:42.882Z",
+            "modified": "2023-05-02T05:13:42.882Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"lastName\": \"aroa\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b6cd83fa-cc57-4cd0-a296-e2509e1c1eaa",
+            "colId": "ea5b468f-c687-4ccb-bbca-fb3773391273",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:4000/users/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-05-02T05:14:04.130Z",
+            "modified": "2023-05-02T05:14:04.130Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
